@@ -1,7 +1,8 @@
 # lsd aliases for PowerShell
 
-[![license](https://img.shields.io/github/license/gluons/powershell-git-aliases.svg?style=flat-square)](./LICENSE)
+[![license](https://img.shields.io/github/license/FelipeCybis/pwsh-lsd-aliases.svg?style=flat-square)](./LICENSE)
 
+> This simple module was completely inspired by the [Git aliases for Powershell](https://github.com/gluons/powershell-git-aliases) module.
 
 A [PowerShell](https://microsoft.com/powershell) module that provide partial
 **[lsd](https://github.com/lsd-rs/lsd)** aliases from [Oh My
