@@ -59,6 +59,18 @@ Import-Module lsd-aliases -DisableNameChecking
 Then restart your PowerShell.  
 Now you can use the lsd aliases.
 
+### Aliases
+```powershell
+ls    -> lsd --group-directories-first @args
+la    -> ls --almost-all @args
+ll    -> ls --long @args
+lt    -> ls --tree --depth=2 @args
+l     -> ll --almost-all @args
+llm   -> ll --timesort @args
+llt   -> ll --tree --depth=2 @args
+llat  -> l --tree --depth=2 @args
+lm    -> l --timesort @args
+```
 ---
 
 ⚠️ If you don't have PowerShell profile yet, create it with below command!
