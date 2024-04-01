@@ -1,3 +1,5 @@
+. $PSScriptRoot\utils.ps1
+
 # Prevent conflict with built-in aliases
 Remove-Alias ls -Force -ErrorAction SilentlyContinue
 

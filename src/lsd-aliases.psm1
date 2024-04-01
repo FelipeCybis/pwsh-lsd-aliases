@@ -9,8 +9,8 @@ $FunctionsToExport = @(
     'llm',
     'llt',
     'llat',
-    'lm'
-    
+    'lm',
+    'Get-Lsd-Alias'
 )
 
 Export-ModuleMember -Function $FunctionsToExport

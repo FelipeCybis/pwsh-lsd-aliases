@@ -66,7 +66,18 @@ Description = "A PowerShell module that provide partial lsd aliases from Oh My Z
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = '*'
+FunctionsToExport = @(
+    'ls',
+    'll',
+    'lt',
+    'la',
+    'l',
+    'llm',
+    'llt',
+    'llat',
+    'lm',
+    'Get-Lsd-Alias'
+)
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
@@ -88,9 +99,7 @@ AliasesToExport = @()
 
 # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
 PrivateData = @{
-
     PSData = @{
-
         # Tags applied to this module. These help with module discovery in online galleries.
         # Tags = @()
 
