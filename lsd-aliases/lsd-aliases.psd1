@@ -27,7 +27,7 @@ Author = 'Felipe Cybis Pereira'
 Copyright = '(c) Felipe Cybis Pereira. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = "A PowerShell module that provide partial lsd aliases from Oh My Zsh's and zap lsd plugins."
+Description = 'A PowerShell module that provide partial lsd aliases from Oh My Zsh and zap lsd plugins.'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
