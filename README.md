@@ -16,7 +16,6 @@ plugin](https://github.com/yuhonas/zsh-aliases-lsd) and [Zap-Zsh](https://github
 
 ## ⚙️ Installation
 
-**WIP for powershell gallery and scoop installation.**
 
 Install from [PowerShell
 Gallery](https://www.powershellgallery.com/packages/lsd-aliases/)
@@ -28,6 +27,7 @@ Install-Module lsd-aliases -Scope CurrentUser -AllowClobber
 
 ```
 
+**WIP for scoop installation. Not yet working.**
 Or from
 [Scoop](https://github.com/ScoopInstaller/Extras/blob/master/bucket/lsd-aliases.json)
 
