@@ -33,8 +33,7 @@ Install-Module lsd-aliases -Scope CurrentUser -AllowClobber
 Or use the Scoop manifest in the repo to install with Scoop.
 
 ```powershell
-scoop install
-https://raw.githubusercontent.com/FelipeCybis/pwsh-lsd-aliases/main/lsd-aliases.json
+scoop install https://raw.githubusercontent.com/FelipeCybis/pwsh-lsd-aliases/main/lsd-aliases.json
 ```
 
 ---
