@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "description": "A PowerShell module that provide partial lsd aliases from Oh My Zsh's and Zap-Zsh lsd plugins.",
+    "homepage": "https://github.com/FelipeCybis/pwsh-lsd-aliases",
+    "license": "MIT",
+    "notes": [
+        "Use the module by running: 'Import-Module lsd-aliases -DisableNameChecking'",
+        "Add it to your $PROFILE to make it permanent"
+    ],
+    "suggest": {
+        "lsd": ["lsd"]
+    },
+    "url": "https://psg-prod-eastus.azureedge.net/packages/lsd-aliases.0.1.0.nupkg",
+    "hash": "314e80a88e401f8feff0f937835a4d5ea357cd4637f54e4590b42b1a34ca83d5",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
+    "psmodule": {
+        "name": "lsd-aliases"
+    },
+    "checkver": {
+        "url": "https://www.powershellgallery.com/packages/lsd-aliases",
+        "regex": "<h2>([\\d.]+)</h2>"
+    },
+    "autoupdate": {
+        "url": "https://psg-prod-eastus.azureedge.net/packages/lsd-aliases.$version.nupkg"
+    }
+}
