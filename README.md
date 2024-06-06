@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/github/license/FelipeCybis/pwsh-lsd-aliases)](https://github.com/FelipeCybis/pwsh-lsd-aliases/blob/main/LICENSE)
 [![PowerShell Gallery
 Version](https://img.shields.io/powershellgallery/v/lsd-aliases)](https://www.powershellgallery.com/packages/lsd-aliases/)
+[![PowerShell Gallery
+Downloads](https://img.shields.io/powershellgallery/dt/lsd-aliases)](https://www.powershellgallery.com/packages/lsd-aliases/)
 
 
 > This simple module was completely inspired by the [Git aliases for Powershell](https://github.com/gluons/powershell-git-aliases) module.
